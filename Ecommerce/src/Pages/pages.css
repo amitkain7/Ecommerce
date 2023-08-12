@@ -1,0 +1,251 @@
+/* product list */
+.productlist h1{
+    margin: 20px;
+}
+
+.filterContainer{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.filterContainer .fliter{
+    margin: 20px;
+}
+
+.filerText{
+    font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.filter select{
+    padding: 5px;
+    margin-right: 20px;
+
+}
+
+/* product */
+
+.Wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.img-container{
+    flex: 1;
+}
+
+.img-container img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+  
+}
+
+ .InfoContainer{
+    flex: 1;
+    padding: 0px 50px;
+   
+  
+}
+
+.InfoContainer h1{
+    font-weight: 200;
+}
+.InfoContainer .desc{
+    margin: 20px 0px;
+
+}
+.price{
+    font-weight: 100;
+    font-size: 40px;
+  
+}
+.InfoContainer .filterContainer{
+    width: 50%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.filterContainer .filter{
+    display: flex;
+    align-items: center;
+}
+.filter .filterTitle{
+    font-size: 20px;
+  font-weight: 200;
+}
+.filter .filterColor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.filter select{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.AddContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.AddContainer .Amountcont{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.Amountcont span{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+  
+}
+
+.cart-btn{
+    padding: 10px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+  
+}
+.cart-btn:hover{
+    background-color: #f8f4f4;
+}
+/* Register */
+
+.Resister-page{
+    width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.Resister-page .Wrapper{
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+   
+    
+    flex-direction: column;
+  
+}
+.Resister-page h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+ form{
+    display: flex;
+    flex-wrap: wrap; 
+}
+ input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+}
+
+.Agreement{
+    font-size: 12px;
+    margin: 20px 0px;
+  
+}
+
+.create{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+/* login */
+
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_wrapper{
+    width: 25%;
+  padding: 20px;
+  background-color: white;
+
+}
+.login_wrapper h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.login_wrapper form{
+    display: flex;
+    flex-direction: column;
+  
+}
+.login_wrapper input{
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+  
+}
+.login-btn{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  
+}
+
+.login-page a{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkout-button{
+    width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
